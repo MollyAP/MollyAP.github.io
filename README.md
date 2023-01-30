@@ -10,7 +10,7 @@
 </style>
 </head>
 <body>
-<div class="container mt-2" style="background:#a282a2; color: #020202; border: 2px solid #000000; border-radius: 5px; width: 2000px;"> <h1 class="center">Molly's website</h1> </div>
+<div class="container mt-2" style="background:#000000; color: #020202; border: 2px solid #a282a2; border-radius: 5px; width: 1000px;"> <h1 class="center">Molly's website</h1> </div>
 <p class="center">Agrowth mindset is.</p></p>
 
 </body>
