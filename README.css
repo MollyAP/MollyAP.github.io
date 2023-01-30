@@ -11,4 +11,154 @@
    <body>
       <h1>Connect with Tutors</h1>
    </body>
-</html>
+</html><!--- colors (ctrl f and replace all)
+#020202 - font
+#efefef - backdrop
+#A282A2 - borders
+#265470 - quote accent
+-->
+  <!-- BACKGROUND -->
+  <div style="position:absolute;top:0;bottom:0;left:0; background:url(
+
+  https://i.imgur.com/SrJI4iL.png
+  
+  ) fixed center;background-size:cover;width:100%;z-index:-1;" alt="DESCRIBE IMG"> </div>
+    <div class="row no-gutters text-center">
+      <div class="col-md-4 p-2">
+        <!-- FOCAL IMAGE -->
+        
+        <div class="container" style="background:url(https://i.imgur.com/zsm1Yau.png); background-color: #efefef; background-size: cover; border: 2px solid #A282A2; width: 200px; height: 200px; border-radius: 5px;"></div>
+        <div class="container mt-2" style="background:#A282A2; color: #020202; border: 2px solid #A282A2; border-radius: 5px; width: 200px;">
+          links
+        </div>
+        <div class="container mt-2" style="background:#efefef; color: #020202; border: 2px solid #A282A2; border-radius: 5px; width: 200px;">
+          <!-- LINKS -->
+          <a href="https://twitter.com/Porphuram" class="tooltipster" title="twitter"><i class="fab fa-twitter" style="color:#020202;"></i></a> 
+          <a href="LINK" class="tooltipster" title="instagram"><i class="fab fa-instagram" style="color:#020202;"></i></a>  
+          <a href="https://artfight.net/~Mollyphobia" class="tooltipster" title="artfight"><i class="far fa-swords" style="color:#020202;"></i></a> 
+          <a href="https://cash.app/mopmlhca" class="tooltipster" title="cashapp"><i class="fas fa-usd-square"style="color:#020202;"></i></a> 
+        </div>
+         </div>
+        
+<div class="container p-3 overflow-auto" style="background:#000000; color: #020202; border: 2px solid #A282A2; border-radius: 5px; height: 200px; width: 600px;">
+          <!--- QUOTE --->
+          <h1 style="color:#265470; font-size: 17px; font-weight: lighter;">
+            <div style="background: url(https://i.imgur.com/ATwX8AR.png) center no-repeat; 
+      background-size: cover;"></a>
+        </div>
+            short bio
+          <hr class="my-3" style="background:#A282A2;">
+          <!--- LIKES AND DISLIKES --->
+          <span style="color:#A282A2;"></i> 🌈✨23✨goffik✨witchy vibes✨🌈 </span><br>    
+        </div>
+        
+        <div class="card col-lg-6" style="background:0000">
+<div class="d-flex flex-row flex-wrap justify-content-center">
+    <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://i.imgur.com/aGh6o2T.png) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14762099.jocelyn-ramirez" class="btn btn-outline-danger border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+          
+   <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://i.imgur.com/slTdRir.png) center no-repeat; 
+      background-size: cover;">
+      
+        <a href="https://toyhou.se/14762073.alcyon-lieder" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+                
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+      
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+                
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://i.imgur.com/jUz45U5.png) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14762270.marquilla-hervada" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+                
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://i.imgur.com/TU8PyIx.png) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14762565.the-eye-witch" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/19728525?1673839289) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/19728525.margrjet-linbj-rg-helkad-ttir" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                   <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/19729084?1673841396) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/19729084.angel" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+    <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+              
+                 <!--OC ONE-->
+              <div class=" p-1 mx-1 mt-2 rounded-circle" style="width: 100px; height: 100px; background: url(https://f2.toyhou.se/file/f2-toyhou-se/characters/14608358?1643866449) center no-repeat; 
+      background-size: cover;">
+        
+        <a href="https://toyhou.se/14608358.amares-aelius" class="btn btn-outline-secondary border-0 w-100 h-100 rounded-circle" style="mix-blend-mode: screen;"></a>
+        </div>
+                
+        
+        </div>
+         </div><!--OC VAULT END-->
