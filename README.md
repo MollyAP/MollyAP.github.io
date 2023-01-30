@@ -11,8 +11,8 @@
 </head>
 <body>
 
-<h1 class="center">Molly's website</h1>
-<p class="center">Agrowth mindset is.</p> 
+<p style="border-width:3px; border-style:solid; border-color:#FF0000; padding: 1em;"><h1 class="center">Molly's website</h1>
+<p class="center">Agrowth mindset is.</p></p>
 
 </body>
 </html>
