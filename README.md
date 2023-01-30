@@ -10,8 +10,8 @@
 </style>
 </head>
 <body>
-<div class="container mt-2" style="background:#000000; color: #020202; border: 2px solid #a282a2; border-radius: 5px; width: 1000px;"> <h1 class="center">Molly's website</h1> </div>
-<p class="center">Agrowth mindset is.</p></p>
+<div class="container mt-2" style="background:#000000; color: #020202; border: 2px solid #a282a2; border-radius: 5px; width: 700px;"> <h1 class="center">Molly's website</h1>
+<p class="center">Agrowth mindset is.</p></p> </div>
 
 </body>
 </html>
