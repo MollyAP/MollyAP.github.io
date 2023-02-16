@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Operators and Loops</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>Expressions and operators</h1>
+        
+        expression - a valid unit of code that resolves to a value,<br>
+        There are two types of expressions, 1s with side effects like assigning values & 1s that purely evaluate.<br><br>
+
+        <mark>x = 7</mark> is an example of the 1st 1, it uses the <mark>=</mark> operator 2 assign the value seven to the 
+        variable <mark>x</mark>. The expression itself evaluates to <mark>7</mark><br><br>
+
+        <mark>3 + 4</mark> is an example of the 2nd 1, it uses the <mark>+</mark> operator to add <mark>3</mark> and <mark>4</mark> together and 
+        produces a value of <mark>7</mark>, but if it's not eventually part of a bigger construct (like a variable declaration ex 
+        <mark>const z = 3 + 4</mark>), its results will immediately b discarded, usually this is a programmer mistake because the evaluation 
+        doesn't produce any effects.<br><br>
+
+        <strong>ALL COMPLEX EXPRESSIONS ARE JOINED BY OPERATORS LIKE <mark>=</mark> AND <mark>+</mark>!</strong><br><br>
+
+        Types of operators:<br><br>
+
+        <strong>Assignment operators</strong> - assigns a value to its left operand based on the value of its right operand<br><br>
+        <strong>Comparison operators</strong> - compares its operands & returns a logical value based on whether the comparison is true<br><br>
+        <strong> operators</strong> - takes numerical values (either literals or variables) as their operands & returns single numerical value<br><br>
+        <strong>Bitwise operators</strong> - treats their operands as a set of 32 bits (zeros and ones), rather than as decimal, hexadecimal, or octal numbers<br><br>
+        <strong>Logical operators</strong> - typically used with Boolean (logical) values, when they are, they return a Boolean value<br><br>
+        <strong>BigInt operators</strong> - represent numeric values that r 2 large 2 be represented by the <mark>primitive</mark><br><br>
+        <strong>String operators</strong> - In addition 2 the comparison operators, the concatenation operator (+) concatenates two string values together, returning another string that is the union of the two operand strings<br><br>
+        <strong>Conditional (ternary) operator</strong> -  the only JavaScript operator that takes 3 operands. The operator can have one of two values based on a condition<br><br>
+        <strong>Comma operator</strong> - evaluates both of its operands and returns the value of the last operand<br><br>
+        <strong>Unary operators</strong> - an operation with only one operand<br><br>
+        <strong>Relational operators</strong> - compares its operands and returns a Boolean value based on whether the comparison is true.<br><br>
+
+        These operators join operands either formed by a higher-precedence operator or 1 of the basic expressions, the precedence of operators 
+        determines the order they get applied when evaluating an expression for example:
+
+        <xmp>
+        const x = 1 + 2 * 3;
+        const y = 2 * 3 + 1;
+        </xmp>
+
+        Despite <mark>*</mark> & <mark>+</mark> coming in different orders both would result in <mark>7</mark> because <mark>*</mark> has precedence 
+        over <mark>+</mark>, so the <mark>*</mark> joined expression will always be evaluated 1st. You can override operator precedence by using 
+        parentheses (which creates a grouped expression)<br><br>
+
+        JavaScript has binary, unary, and one special ternary operator, the conditional operator, a binary operator needs two operands, one before the 
+        operator and one after the operator:
+
+        <xmp>
+            operand1 operator operand2
+        </xmp>
+
+        For example, <mark>3 + 4</mark> or <mark>x * y</mark>, this form is called an infix binary operator, because the operator is placed between two 
+        operands, all binary operators in JavaScript r infix.
+
+        A unary operator requires a single operand, either before or after the operator:
+
+        <xmp>
+            operator operand
+            operand operator
+        </xmp>
+
+        For example, <mark>x++</mark> or <mark>++x</mark> the <mark>operator operand</mark> form is called a prefix unary operator, & the 
+        <mark>operand operator</mark> form is called a postfix unary operator, <mark>++</mark> and <mark>--</mark> are the only postfix 
+        operators in JavaScript — all other operators, like !, typeof, etc. are prefix.
+
+        <h1>Assignment Operators</h1>
+
+        
+        The simple assignment operator is equal (<mark>=</mark>), which assigns the value of its right operand to its left operand, 
+        <mark>x = f()</mark> is an assignment expression that assigns the value of <mark>f()</mark> to <mark>x</mark><br><br>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Dynamic web pages with JavaScript</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>JavaScript</h1> 
+        
+        JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with 1st class functions mostly known as
+        a scripting language for Web pages, but Node.js, Apache, CouchDB, and Adobe Acrobat all use it too<br>
+        traditionally JavaScript was put inside web browsers but now people put it on the server 2, it 
+        would just b included in the HTML page the user received when they visit a web site & run in the 
+        browser from the client side, as opposed to running on the web server side like they do nowadys<br><br>
+
+        there r 3 major parts of JavaScript:
+
+The language itself. This is fairly standard among the various environments, both in the various browsers and in the various server-side environments.<br>
+The DOM API - how the language can interact with the various parts of a web page while in the browser. While in this respect the various browsers are getting closer to each other they still differ. Several libraries, most prominently JQuery, is trying to provide a unified API.<br>
+The server API provided by Node.js or one of the other server-side systems.
+
+<h1>Embed or Include</h1>
+u can either embed JavaScript directly inside the HTML file, or u can put a line in the HTML file that includes the external JavaScript file 
+the latter is recommended
+
+2 embed it directly in your html add the <xmp><script>opening/closing tags</script></xmp> & write ur JavaScript between them.
+
+<h1>Input Output</h1>
+There r lots of ways JS can display text for the user (output) 1 way is with the alert function
+
+<h1>alert</h1>
+Alert triggers a pop-up in browser with text, while rarely used it is an easy way to show the use of JavaScript
+
+<xmp>
+    <script language="javascript">
+
+        alert("Hello World");
+        
+        </script>
+        
+</xmp>
+
+<h1>Prompt</h1>
+prompt shows a pop-up window with the text provided as the 1st parameter + a textbox u can fill in, when the user presses OK the value in the text
+box is returned by the prompt function.
+<xmp>
+    <script>
+
+        var name = prompt("Your name:", "");
+        document.write("Hello ", name);
+        
+        </script>
+</xmp>
+
+<h1>Confirm</h1>
+The other pop-up allows u to ask  Yes/No questions, Calling the confirm function will show a pop-up window with the provided texts and 2 
+buttons. If the user presses OK the confirm function will return true, if the user presses cancel or hits the ESC key the function will return 
+false.
+
+<xmp>
+    <script>
+
+        if (confirm("Shall I print Hello World?")) {
+            document.write("Hello World");
+        } else {
+            document.write("OK, I won't print it.");
+        }
+        
+        </script>
+</xmp>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Design Web Pages With CSS</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>CSS</h1> 
+        
+        CSS (Cascading Style Sheets) - language that specifyies how documents r presented 2 users, how they are styled,
+        laid out, etc.<br>
+        document - txt file structured using markup language, HTML is most common, SVG & XML r other types<br>
+        Presenting - showing document 2 ppl via converting it into a usable form, popular browsers r designed to present
+        visually, on comp screen, projector, or printer<br>
+        user agent - comp program that represents a person inside a computer system<br><br>
+        CSS can be used for:<br>
+        changing color/size of headings/links<br>
+        creating layouts (turning a single column of text into a layout with a main content area and a sidebar for
+        related information)<br>
+        effects like animation.
+        
+            <h1>CSS Syntax</h1>
+
+        CSS is a rules based language, define the rules by groups of styles applied to particular elements/groups of
+        elements
+            <xmp>
+                h1 {
+                    color: red;
+                    font-size: 5em;
+                  }
+            </xmp>
+                 
+            Example Breakdown:<br><br>
+
+            the CSS rule opens with a selector, this selects the HTML element that we are going to style. In this case, we are
+            styling level one headings <xmp><h1></xmp>
+            We then have a set of curly braces { } Inside the braces will be one or more declarations, which take the form of property and value pairs. We specify the property (color in the above example) before the colon, and we specify the value of the property after the colon
+            (red in this example).
+            This example contains two declarations, one for color and the other for font-size. Each pair specifies a property of
+            the element(s) we are selecting <xmp><h1></xmp> in this case, then a value that we'd like to give the property.
+            CSS properties have different allowable values, depending on which property is being specified. In the example, we
+            have the color property, which can take various color values. We also have the font-size property. This property can
+            take various size units as a value.
+
+            A CSS stylesheet will contain many such rules, written one after the other.<br><br>
+        
+
+            <xmp>
+                h1 {
+                    color: red;
+                    font-size: 5em;
+                  }
+                  
+                  p {
+                    color: black;
+                  }
+                  
+            </xmp>
+
+    </div>
+</body>
+
+</html>

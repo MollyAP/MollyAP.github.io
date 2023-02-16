@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Programming with JavaScript</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>Control Flow</h1> 
+        
+        control flow - order that computer executes statements in a script<br><br>
+
+        code runs in sequental order from the 1st line 2 the last line, unless there  
+        r conditionals, loops, or othr structures that change the control flow
+        if u have a script that validates user data from a webpage and the user 
+        leaves a required field empty the script should prompt them 2 fill it in. 
+        2 do this, u use a conditional structure or <mark>if...else</mark>, so different 
+        code executes depending on whether the form is complete or not
+
+        <xmp>
+            if (isEmpty(field)) {
+                promptUser();
+              } else {
+                submitForm();
+              }
+        </xmp>
+
+        typical JavaScript, PHP, etc include lots of control structures like 
+        conditionals, loops, & functions, parts of a script can also be set to 
+        execute only when certain events occur.<br><br>
+
+        the above code could b inside a function that only runs when the user clicks the 
+        Submit button, it could also include a loop, which iterates through all of 
+        the fields in the form, checking each one, looking back at the code in the <mark>if</mark> 
+        & <mark>else</mark> sections, the lines <mark>promptUser</mark> and <mark>submitForm</mark> could also call to 
+        other functions in the script, control structures can dictate complex flows 
+        of processing even with only a few lines of code.<br><br>
+
+        with this in mind when reading scripts look at the program structure and how 
+        it affects the order of execution, not just from start to finish 
+
+    </div>
+</body>
+
+</html>
