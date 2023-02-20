@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>How The Web Works And Intro To HTML</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>Clients & Servers</h1>
+
+        Computers connected 2 the internet r called clients & servers, here is how they interact:
+
+        <img
+            src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/simple-client-server.png">
+
+        <strong>Client</strong> - you & your internet-connected devices (computer, phone, fridge etc) but also the
+        web-accessing software available on those
+        devices ( Chrome, Firefox, Spotify etc).<br><br>
+
+        <strong>Server</strong> - computers that store webpages, sites, or apps. When a client wants 2 access a webpage,
+        a copy of the webpage is downloaded from
+        the server onto the client machine 2 be displayed in the user's web browser.<br><br>
+
+        <strong>Internet connection</strong> - Allows you to send and receive data on the web<br><br>
+
+        <strong>TCP/IP (Transmission Control Protocol and Internet Protocol)</strong> - communication protocols that
+        define how data should
+        travel across the internet<br><br>
+
+        <strong>DNS (Domain Name System)</strong> - is like an address book for websites. When you type a web address in
+        your browser, the browser
+        looks at the DNS to find the website's IP address before it can retrieve the website. The browser needs to find
+        out which server the
+        website lives on, so it can send HTTP messages to the right place<br><br>
+
+        <strong>HTTP (Hypertext Transfer Protocol)</strong> - an application protocol that defines a language for
+        clients and servers to speak to
+        each other.<br><br>
+        <strong>Component files</strong> - Websites consist of many different files, of which there are 2 main
+        types:<br>
+        <ul>
+            <strong>Code files</strong> - Websites are built primarily from HTML, CSS, and JavaScript<br><br>
+
+            <strong>Assets</strong> This is a collective name for all the other stuff that makes up a website, like
+            images, music, video, Word
+            documents, and PDFs.
+        </ul>
+        <h1>Connecting To Websites</h1>
+
+        <ul>
+            <ol>
+                <li>The browser goes to the DNS server, and finds the real address of the server that the website lives
+                    on</li><br>
+
+                <li>The browser sends an HTTP request message to the server, asking it to send a copy of the website to
+                    the
+                    client, This message, and all other data sent between the client and the server, is sent across your
+                    internet connection
+                    using TCP/IP.</li><br>
+
+                <li>If the server approves the client's request, the server sends the client a "200 OK" message, which
+                    means
+                    "Of course you can look at that website! Here it is", and then starts sending the website's files to
+                    the
+                    browser as a series of small chunks called data packets</li><br>
+
+                <li>The browser assembles the small chunks into a complete web page and displays it to you</li><br>
+            </ol >
+        </ul >
+
+                <h1>Parsing Order</h1>
+
+                When browsers send requests to servers for HTML files, those HTML files often contain <mark>< link ></mark> elements referencing 
+                external CSS stylesheets and <mark>< script ></mark> elements referencing external JavaScript scripts. Here is the order in which 
+                those files are parsed by the browser while it loads the page:<br><br>
+
+                    The browser parses the HTML file first, and that leads to the browser recognizing any <br><mark>< link ></mark> element references 
+                    to external CSS stylesheets and any <mark>< script ></mark> element references to scripts.<br><br>
+
+                    As the browser parses the HTML, it sends requests back to the server for any CSS files it has found from <mark>< link ></mark> 
+                    elements, and any JavaScript files it has found from <mark>< script ></mark> elements, and from those, then parses the CSS and 
+                    JavaScript.<br><br>
+
+                    The browser generates an in memory DOM tree from the parsed HTML, generates an in memory CSSOM structure from the parsed CSS, 
+                    and compiles and executes the parsed JavaScript.<br><br>
+
+                    As the browser builds the DOM tree and applies the styles from the CSSOM tree and executes the JavaScript, a visual 
+                    representation of the page is painted to the screen, and the user sees the page content and can begin to interact with it.<br><br>
+
+                <h1>Structure Of A HTML Document</h1>
+
+                <strong>Header</strong> - A big strip across the top with a big heading, logo, and tagline, usually stays the same from one 
+                webpage to another.<br><br>
+
+                <strong>Navigation Bar</strong> - Links 2 the site's main sections; usually represented by menu buttons, links, or tabs, Like the header 
+                    it's usually consistent across pages, inconsistencies here will lead to confused, frustrated users, many web designers 
+                    consider it part of the header, not an individual component, but that's not a requirement in fact, some also argue that it's 
+                    better for accessibility to have them seperate because screen readers can read them better<br><br>
+                
+                <strong>Main Content</strong> - A big area in the center that contains most of the content of the webpage, 
+                (video, a story, a map, or a news article, etc) this part of the website inherently varies from page to page<br><br>
+                    
+                <strong>Sidebar</strong> - Some peripheral info, links, quotes, ads, etc Usually, this is contextual to what is contained in the 
+                main content (for example on a news article page, the sidebar might contain the author's bio, or links to related articles) but 
+                there are also cases where you'll find some recurring elements like a secondary navigation system<br><br>
+                
+                <strong>Footer</strong> - A strip across the bottom of the page that generally contains fine print, copyright notices, or contact 
+                info, It's a place to put common information (like the header) but usually, that information is not critical or secondary to the 
+                website itself. The footer is also sometimes used for SEO purposes, by providing links for quick access to popular content.<br><br>
+
+
+        <a href='reading-notes.html'><button style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+    </div >
+</body >
+
+</html >
