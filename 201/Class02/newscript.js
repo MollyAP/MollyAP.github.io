@@ -1,3 +1,10 @@
+function whodat() {
+    myname = prompt("What is your name?");
+    let name = (myname);
+    alert(name + "? Interesting, alright then.");
+    document.getElementById('name').innerHTML = "<span id='name'>"+name+"</span>";
+}
+whodat();
 function show_prompt1() {
     var a = prompt ("Help I forgot :(");
 
@@ -9,7 +16,7 @@ function show_prompt1() {
         document.getElementById('promptreturn1').innerHTML = "CORRECT... I THINK?";
     }
     else{
-        document.getElementById('promptreturn1').innerHTML = "<span id='promptretval'>" + a + " IS NOT A VALID ANSWER SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
+        document.getElementById('promptreturn1').innerHTML = "<span id='promptretval'>" + a.toLocaleUpperCase() + " IS NOT A VALID ANSWER "+ myname.toLocaleUpperCase() +" SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
     }
 }
 
@@ -21,10 +28,10 @@ function show_prompt2() {
         document.getElementById('promptreturn2').innerHTML = "WRONG, YOU DON'T KNOW ME.";
     }
     else if (b == "Yes") {
-        document.getElementById('promptreturn2').innerHTML = "CORRECT, BUT I WON'T DRAW FOR YOU";
+        document.getElementById('promptreturn2').innerHTML = "CORRECT, BUT I WON'T DRAW FOR YOU, "+myname.toLocaleUpperCase();
     }
     else{
-        document.getElementById('promptreturn2').innerHTML = "<span id='promptretval'>" + b + " IS NOT A VALID ANSWER SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
+        document.getElementById('promptreturn2').innerHTML = "<span id='promptretval'>" + b.toLocaleUpperCase() + " IS NOT A VALID ANSWER "+ myname.toLocaleUpperCase() +" SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
     }
 }
 function show_prompt3() {
@@ -38,7 +45,7 @@ function show_prompt3() {
         document.getElementById('promptreturn3').innerHTML = "WRONG, BUT I WISH IT WAS CORRECT...";
     }
     else{
-        document.getElementById('promptreturn3').innerHTML = "<span id='promptretval'>" + c + " IS NOT A VALID ANSWER SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
+        document.getElementById('promptreturn3').innerHTML = "<span id='promptretval'>" + c.toLocaleUpperCase() + " IS NOT A VALID ANSWER "+ myname.toLocaleUpperCase() +" SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
     }
 }
 function show_prompt4() {
@@ -46,26 +53,26 @@ function show_prompt4() {
 
     document.getElementById('promptreturn4').innerHTML = d;
     if (d == "No") {
-        document.getElementById('promptreturn4').innerHTML = "WRONG! NEXT TIME PICK THE CORRECT ANSWER!!";
+        document.getElementById('promptreturn4').innerHTML = "WRONG! HOW ABOUT NEXT TIME YOU PICK THE CORRECT ANSWER "+myname.toLocaleUpperCase()+"!!";
     }
     else if (d == "Yes") {
         document.getElementById('promptreturn4').innerHTML = "CORRECT! NOW BUY ME ONE!!";
     }
     else{
-        document.getElementById('promptreturn4').innerHTML = "<span id='promptretval'>" + d + " IS NOT A VALID ANSWER SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
+        document.getElementById('promptreturn4').innerHTML = "<span id='promptretval'>" + d.toLocaleUpperCase() + " IS NOT A VALID ANSWER "+ myname.toLocaleUpperCase() +" SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
     }
 }
 function show_prompt5() {
-    var e = prompt ("If u say yes you HAVE to help me FINANCIALLY in getting one.");
+    var e = prompt ("Molly IS pretty smart so idk...");
 
     document.getElementById('promptreturn5').innerHTML = e;
     if (e == "No") {
-        document.getElementById('promptreturn5').innerHTML = "CORRECT! CONGRATS YOU CAN READ!!";
+        document.getElementById('promptreturn5').innerHTML = "CORRECT! IT'S OFFICIAL!! "+myname.toLocaleUpperCase()+" CAN READ!!! CONGRATS!!!!";
     }
     else if (e == "Yes") {
-        document.getElementById('promptreturn5').innerHTML = "WRONG, YOU LITERALLY COULD HAVE LOOKED TO THE SIDE!!";
+        document.getElementById('promptreturn5').innerHTML = "WRONG, YOU LITERALLY COULD HAVE LOOKED TO THE SIDE "+myname.toLocaleUpperCase()+"!!";
     }
     else{
-        document.getElementById('promptreturn5').innerHTML = "<span id='promptretval'>" + e + " IS NOT A VALID ANSWER SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
+        document.getElementById('promptreturn5').innerHTML = "<span id='promptretval'>" + e.toLocaleUpperCase() + " IS NOT A VALID ANSWER "+ myname.toLocaleUpperCase() +" SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
     }
 }
