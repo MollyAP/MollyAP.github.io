@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://i.imgur.com/XN8RNDb.png);
+    background-size: 100%;
+    color: #f8f8ff;
+    font-size: 150%;
+}
+.box{
+    background-color: #0a0a0a;
+    padding: 5%;
+    border: solid 5px #826982;
+    border-radius: 25px;
+    word-wrap: break-word
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width:48%;
+    height: auto;
+    background-color: #1c1a1c;
+    border: solid 5px #826982;
+    border-radius: 25px;
+  }
+  button{
+    height: auto;
+    width: auto;
+    background-color: #0a0a0a;
+    color: #f8f8ff;
+    border: solid 2px #826982;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1%;
+  }
+  a:link { 
+    text-decoration: none;
+    color: #a282a2; 
+  }
+  .flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 2%;
+} 
