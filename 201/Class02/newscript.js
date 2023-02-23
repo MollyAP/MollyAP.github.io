@@ -76,3 +76,51 @@ function show_prompt5() {
         document.getElementById('promptreturn5').innerHTML = "<span id='promptretval'>" + e.toLocaleUpperCase() + " IS NOT A VALID ANSWER "+ myname.toLocaleUpperCase() +" SAY YES OR NO WITH CORRECT CAPITALIZATION!</span>";
     }
 }
+
+
+function thisFunc() {
+
+    userAns = prompt("Let's here em");
+
+    let thisArray = [10, 6, 4, 12, "Hello"];
+
+
+        if (userAns != thisArray){
+            alert("WRONG");
+            userAns = prompt("Please guess a number again!");
+        }
+    else if(userAns == thisArray){
+            alert("YES");
+    }
+}
+
+
+
+function promptUser(expectedAnswer) {
+  let chancesLeft = 4;
+  let answeredCorrectly = 5;
+  
+  while (chancesLeft > 0) {
+    userAns = prompt("Please guess a number between 1 and 10! :)");
+
+
+    
+        if (userAns < 4){
+            alert("Your number is too low! Try again!");
+            userAns = prompt("Please guess a number again!");
+        }
+    else if(userAns > 4){
+        alert("Your number is too high! Try again!");
+        userAns = prompt("Please guess a number again!");
+    }
+}
+    if (userAns = 4){
+        alert("You guessed right!!!");
+    }
+}
+    
+    chancesLeft--;
+  
+  if (!answeredCorrectly) {
+    alert('You are out of chances!');
+  }
