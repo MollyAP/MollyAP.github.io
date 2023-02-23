@@ -1,10 +1,10 @@
-// function whodat() {
-//     myname = prompt("What is your name?");
-//     let name = (myname);
-//     alert(name + "? Interesting, alright then.");
-//     document.getElementById('name').innerHTML = "<span id='name'>"+name+"</span>";
-// }
-// whodat();
+function whodat() {
+    myname = prompt("What is your name?");
+    let name = (myname);
+    alert(name + "? Interesting, alright then.");
+    document.getElementById('name').innerHTML = "<span id='name'>"+name+"</span>";
+}
+whodat();
 function show_prompt1() {
     var a = prompt("Help I forgot :(");
 
