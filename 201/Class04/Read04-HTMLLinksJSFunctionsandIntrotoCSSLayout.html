@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3V6MQR53Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R3V6MQR53Z');
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Class Notes</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>What is a hyperlink?</h1>
+
+        Hyperlinks are one of the most exciting innovations the Web has to offer. They've been a feature of the Web
+        since the beginning, and are what makes the Web a web. Hyperlinks allow us to link documents to other documents
+        or resources, link to specific parts of documents, or make apps available at a web address. Almost any web
+        content can be converted to a link so that when clicked or otherwise activated the web browser goes to another
+        web address (URL).<br><br>
+
+        A basic link is created by wrapping the text or other content inside an <a> element and using the href
+            attribute, also known as a Hypertext Reference, or target, that contains the web address.
+
+            <xmp style="overflow-y: ;">
+    <p>
+        I'm creating a link to
+        <a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>.
+    </p>
+            </xmp>
+
+            This gives us the following result:<br>
+            <p>
+                I'm creating a link to
+                <a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>.
+            </p>
+
+            <h1>Block Level Links</h1>
+
+            As mentioned before, almost any content can be made into a link, even block-level elements. If you want to
+            make a heading element a link then wrap it in an anchor (<a>) element as shown in the following code
+                snippet:
+                <xmp>
+<a href="https://developer.mozilla.org/en-US/">
+    <h1>MDN Web Docs</h1>
+</a>
+<p>
+ Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.
+</p>
+                </xmp>
+
+                This turns the heading into a link:<br><br>
+                <div class="box">
+                    <a href="https://developer.mozilla.org/en-US/">
+                        <h1>MDN Web Docs</h1>
+                    </a>
+                    <p>Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.</p>
+                </div><br><br>
+                
+
+                <a href='../../reading-notes.html'><button
+                        style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+
+    </div>
+</body>
+
+</html>
