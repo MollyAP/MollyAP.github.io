@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3V6MQR53Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R3V6MQR53Z');
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Class Notes</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>Images in HTML</h1>
+
+        In order to put an image on a web page, we use the <mark>< img></mark> element, it can't have any child content or an end tag
+        and needs two attributes to be useful, src and alt<br><br>
+        
+        src contains a URL pointing to the image you want to embed, like href for <mark>< a ></mark>, src can be a relative or absolute, 
+        Without an src attribute, an img element has no image to load.<br><br>
+
+        So for example, if your image is called <mark>test.png</mark>, and it sits in the same directory as your HTML page,
+        you could embed the image like so:
+
+            <xmp>
+        <img src="test.png" alt="Test img" />
+            </xmp><br>
+           
+            If the image was in an images subdirectory, which was inside the same directory as the HTML page, then you'd
+            embed it like this:
+
+            <xmp>
+        <img src="images/test.png" alt="Test img" />
+            </xmp><br>
+            
+            Though not reccomended you can even embed the image using its absolute URL like this:
+
+            <xmp>
+        <img src="https://www.example.com/images/test.png" alt="Test img" />
+            </xmp>
+
+            Hosting your own images by keeping them on the same server as your HTML is preffered but In more advanced setups, you might use a 
+            CDN (Content Delivery Network) to deliver your images.<br><br>
+
+            The above code examples would all look like this:
+
+            <img src="test.png" alt="Test img" />
+
+            <h1>Colors in CSS</h1>
+
+            <strong>color</strong> - defines the foreground color of an HTML element's content<br><br>
+
+            <strong>background-color</strong> defines the element's background color<br><br>
+
+            <h2>Text</h2>
+            Whenever an element is rendered, these properties are used to determine the color, background, and any decorations of the text<br><br>
+
+            <strong>color</strong> The color to use when drawing the text and any text decorations (such as the addition of under- or overlines, strike-through lines, and so forth.
+
+background-color
+The text's background color.
+
+text-shadow
+Configures a shadow effect to apply to text. Among the options for the shadow is the shadow's base color (which is then blurred and blended with the background based on the other parameters). See Text drop shadows to learn more.
+
+text-decoration-color
+By default, text decorations (such as underlines, strikethroughs, etc.) use the color property as their colors. However, you can override that behavior and use a different color for them with the text-decoration-color property.
+
+text-emphasis-color
+The color to use when drawing emphasis symbols adjacent to each character in the text. This is used primarily when drawing text for East Asian languages.
+
+caret-color
+The color to use when drawing the caret (sometimes referred to as the text input cursor) within the element. This is only useful in elements that are editable, such as <input> and <textarea> or elements whose HTML contenteditable attribute is set.
+
+Boxes
+Every element is a box with some sort of content, and has a background and a border in addition to whatever contents the box may have.
+
+Borders
+See the section Borders for a list of the CSS properties you can use to set the colors of a box's borders.
+
+background-color
+The background color to use in areas of the element that have no foreground content.
+
+column-rule-color
+The color to use when drawing the line separating columns of text.
+
+outline-color
+The color to use when drawing an outline around the outside of the element. This outline is different from the border in that it doesn't get space set aside for it in the document (so it may overlap other content). It's generally used as a focus indicator, to show which element will receive input events.
+
+
+            <a href='../../reading-notes.html'><button
+                    style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+
+    </div>
+</body>
+
+</html>
