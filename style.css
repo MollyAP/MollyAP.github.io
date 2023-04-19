@@ -27,6 +27,9 @@ body{
 h1{
     text-align: center;
 }
+li{
+  color: #a282a2;
+}
 img{
     display: block;
     margin-left: auto;
