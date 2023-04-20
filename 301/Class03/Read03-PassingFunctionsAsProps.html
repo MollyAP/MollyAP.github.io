@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3V6MQR53Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R3V6MQR53Z');
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Class Notes</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>React Docs - lists and keys</h1>
+
+        <ol type="1">
+            <li>What does .map() return?</li>
+            A looped array displayed in JSX.<br><br>
+
+            <li>If I want to loop through an array and display each value in JSX, how do I do that in React?</li>
+            By using the map methood.<br><br>
+
+            <li>Each list item needs a unique ____.</li>
+            Key.<br><br>
+
+            <li>What is the purpose of a key?</li>
+            To create lists of elements<br><br>
+        </ol>
+        
+
+        <h1>The Spread Operator</h1>
+
+        <ol type="1">
+            <li>What is the spread operator?</li>
+            Syntax for “spreading” the array into separate arguments.<br><br>
+
+            <li>List 4 things that the spread operator can do.</li>
+            Add items to arrays, combine arrays or objects, spread an array out into a function’s arguments, and use math functions<br><br>
+
+            <li>Give an example of using the spread operator to combine two arrays.</li>
+            <xmp>
+            const myArray = [`🤪`,`🐻`,`🎌`]
+            const yourArray = [`🙂`,`🤗`,`🤩`]
+            const ourArray = [...myArray,...yourArray]
+            console.log(...ourArray) // 🤪 🐻 🎌 🙂 🤗 🤩
+            </xmp><br><br>
+
+            <li>Give an example of using the spread operator to add a new item to an array.</li>
+            <xmp>
+            const fewFruit = ['🍏','🍊','🍌']
+            const fewMoreFruit = ['🍉', '🍍', ...fewFruit]
+            console.log(fewMoreFruit) //  Array(5) [ "🍉", "🍍", "🍏", "🍊", "🍌" ]
+            </xmp><br><br>
+
+            <li>Give an example of using the spread operator to combine two objects into one.</li>
+            <xmp>
+            const objectOne = {hello: "🤪"}
+            const objectTwo = {world: "🐻"}
+            const objectThree = {...objectOne, ...objectTwo, laugh: "😂"}
+            console.log(objectThree) // Object { hello: "🤪", world: "🐻", laugh: "😂" }
+            const objectFour = {...objectOne, ...objectTwo, laugh: () => {console.log("😂".repeat(5))}}
+            objectFour.laugh() // 😂😂😂😂😂
+            </xmp><br><br>
+
+        </ol>
+
+        <h1>How to Pass Functions Between Components</h1>
+
+        <ol type="1">
+            <li>In the video, what is the first step that the developer does to pass functions between components?</li>
+            He makes an increment function.<br><br>
+
+            <li>In your own words, what does the increment function do?</li>
+            It adds in increments specified.<br><br>
+
+            <li>How can you pass a method from a parent component into a child component?</li>
+            Pass the method as a prop to the child component and access the method from the child using props <br><br>
+
+            <li>How does the child component invoke a method that was passed to it from a parent component?</li>
+            call it using props<br><br>
+        </ol>
+
+        <a href='../../reading-notes.html'><button
+                style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+
+    </div>
+</body>
+
+</html>
