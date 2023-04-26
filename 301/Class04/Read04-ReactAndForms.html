@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3V6MQR53Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R3V6MQR53Z');
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Class Notes</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>React Docs - Forms</h1>
+
+        <ol type="1">
+            <li>What is a ‘Controlled Component’?</li>
+            An input form element whose value is controlled by React<br><br>
+
+            <li>Should we wait to store the users responses from the form into state when they submit the form OR should we update the state with their responses as soon as they enter them? Why.</li>
+            It's better to update the state with the user's responses as soon as they enter them. To catch errors or invalid input early on and because it just generally allows for a way more responsive/interactive user interface <br><br>
+
+            <li>How do we target what the user is entering if we have an event handler on an input field?</li>
+            The "event.target.value" property<br><br>
+        </ol>
+        
+
+        <h1>The Conditional (Ternary) Operator Explained</h1>
+
+        <ol type="1">
+            <li>Why would we use a ternary operator?</li>
+            To write concise and readable code that performs conditional operations<br><br>
+
+            <li>Rewrite the following statement using a ternary statement:
+                <xmp>if(x===y){
+                    console.log(true);
+                  } else {
+                    console.log(false);
+                  }</xmp>
+            </li>
+            console.log(x === y ? true : false);<br><br>
+        </ol>
+
+        <a href='../../reading-notes.html'><button
+                style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+
+    </div>
+</body>
+
+</html>
