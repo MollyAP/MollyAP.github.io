@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3V6MQR53Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R3V6MQR53Z');
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Class Notes</title>
+</head>
+
+<body>
+    <div class="box">
+
+        <h1>Status Codes Based On REST Methods</h1>
+
+        <ol type="1">
+            <li>In your own words, describe what each group of status code represents:</li>
+            <ul>
+            <li>100’s =<a style="color: #ffffff;">The server has received the request and is continuing the process.</a></li>
+            <li>200’s =<a style="color: #ffffff;">The server successfully processed the request.</a></li>
+            <li>300’s =<a style="color: #ffffff;">The client needs to take further action to complete the request.</a></li>
+            <li>400’s =<a style="color: #ffffff;">There was an error on the client-side.</a></li>
+            <li>500’s =<a style="color: #ffffff;">There was an error on the server-side.</a></li>
+            </ul><br><br>
+
+            <li>What is a status code 202?</li>
+            The request was valid, but its processing will finish sometime in the future.<br><br>
+
+            <li>What is a status code 308?</li>
+            The resource will now be available at a new URL and the client should directly access it via the new URL in the future.<br><br>
+
+            <li>What code would you use if an update didn’t return data to a client?</li>
+            204 No Content.<br><br>
+
+            <li>What code would you use if a resource used to exist but no longer does?</li>
+            410 Gone.<br><br>
+
+            <li>What is the ‘Forbidden’ status code?</li>
+            403.<br><br>
+        </ol>
+
+        <h1>Build A REST API With Node.js, Express, & MongoDB</h1>
+
+        <ol type="1">
+            <li>Why do we need to pull our MongoDB database string out of our server and put it into our .env?</li>
+            For security reasons, storing sensitive information like database credentials in an .env will protect it from being exposed in case the server code gets seen. <br><br>
+
+            <li>What is middleware?</li>
+            Code that runs when the server gets a request but before it gets passed to your routes<br><br>
+
+            <li>What does <mark>app.use(express.json())</mark> do?</li>
+            Adds middleware that parses incoming requests with JSON payloads.<br><br>
+
+            <li>What does the <mark>/:id</mark> mean in a route?</li>
+            It's a route parameter.<br><br>
+
+            <li>What is the difference between <mark>PUT</mark> and <mark>PATCH</mark>?</li>
+            PUT is used to completely replace an existing resource with the provided data while PATCH is used to partially update an existing resource.<br><br>
+
+            <li>How do you make a default value in a schema?</li>
+            Use the "default" property in it<br><br>
+
+            <li>What does a <mark>500</mark> error status code mean?</li>
+            There was an unexpected error on the server-side while attempting to connect<br><br>
+
+            <li>What is the difference between a status <mark>200</mark> and a status <mark>201</mark>?</li>
+            Both mean that the request was successful but 200 means that the server has returned the requested resource while 201 means that a new resource has been created.<br><br>
+        </ol>
+
+
+        <h1>Why it matters</h1>
+        <p>Because status codes provide important info about the request outcome from whatever website you're on,
+            allowing you to troubleshoot and debug easily.
+        </p>
+
+        <a href='../../reading-notes.html'><button
+                style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+
+    </div>
+</body>
+
+</html>
