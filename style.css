@@ -90,3 +90,12 @@ a:active {
   text-decoration: none;
   color: #f8f8ff; 
 }
+::-moz-selection { /* Code for Firefox */
+  color: #f8f8ff;
+  background: #826982;
+}
+
+::selection {
+  color: #f8f8ff;
+  background: #826982;
+}
