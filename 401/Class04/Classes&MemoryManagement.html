@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3V6MQR53Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R3V6MQR53Z');
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Class Notes</title>
+</head>
+
+<body>
+    <div class="box">
+        <h2>Why it matters:</h2>
+        Stack and Heap memory management is really important for me to understand because I need to understand how
+        variables and objects are allocated, accessed, and deallocated. Value Types and Reference Types, are also
+        importanat to understand because it directly relates to the way objects are stored and accessed in memory.
+        Understanding the differences between these types helps me decide the right data structures and variable types.
+        It also sheds light on the behavior of variables and what happens when passing them by value or reference, which
+        is important if i want to write bug-free code.
+
+        <h2>Properties</h2>
+  <ol>
+    <li>
+      <h3>What's the difference between a static and an instance constructor?</h3>
+      <p>Static constructors are called only once per type, regardless of the number of instances created and an instance constructor is called each time a new instance of the class is created. Also static constructors are used to initialize static members of a class while instance constructors initialize instance members.</p>
+    </li>
+    <li>
+      <h3>How does the use of a static constructor differ from setting properties/values?</h3>
+      <p>A static constructor initializes static members of a class, while setting properties/values is usually done by instance constructors or by directly assigning values to properties or fields after creating an instance of the class.</p>
+    </li>
+  </ol>
+
+  <h2>Stack and Heap</h2>
+  <ol>
+    <li>
+      <h3>Knowing what you now know about the stack and the heap, how might you rethink the way you did projects in previous courses, to make more efficient use of memory?</h3>
+      <p>I would use value types instead of reference types whenever I can.</p>
+    </li>
+  </ol>
+
+  <h2>Garbage Collection Fundamentals</h2>
+  <ol>
+    <li>
+      <h3>Compare "Garbage Collection" in C# with the lifecycle of normal household items.</h3>
+      <p>When a household item reaches the end of its usefulness or becomes obsolete, we dispose of it to free up space and keep our place clean. In C#, objects that are no longer needed or have completed their tasks are disposed of to release the memory resources they occupy. </p>
+    </li>
+  </ol>
+
+        <h2>Things I want to know more about:</h2>
+
+        Things I want to know more about:
+
+        <ol>
+            <li>Can objects be stored on the stack, or are they always allocated on the heap?</li>
+            <li>How does the passing of value types and reference types to methods affect memory usage?</li>
+            <li>How does the garbage collector in C# determine which objects are eligible for collection?</li>
+        </ol>
+
+
+        <a href='../../reading-notes.html'><button
+                style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+
+    </div>
+</body>
+
+</html>
