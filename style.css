@@ -99,3 +99,19 @@ a:active {
   color: #f8f8ff;
   background: #826982;
 }
+
+input{
+  background-color: #1c1a1c;
+  border: solid 1px #826982;
+  border-radius: 5px;
+  color: #f8f8ff;
+  outline: none;
+  font-size: 90%;  
+}
+
+input:focus {
+  background-color: #2a2c3e;
+  border-color: #b58db0;
+  color: #f8f8ff;
+  box-shadow: 0 0 3px rgba(178, 110, 214, 0.8);
+}
