@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3V6MQR53Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-R3V6MQR53Z');
+  </script>
+  <link rel="stylesheet" type="text/css" href="../../style.css" />
+  <title>Class Notes</title>
+</head>
+
+<body>
+  <div class="box">
+    <h1>Introduction to Databases and ERDs</h1>
+
+    <h2>Why it matters:</h2>
+    This matters because data models are essential for data organization, integrity, and application development and
+    contribute to the overall efficiency, scalability, and security, they make sure that data is managed effectively
+    throughout its lifecycle.
+
+    <h2>Data Models (Review the DB Schema)</h2>
+
+    <ol>
+      <li>Do some research on what a Database Schema is.<br><br>
+        <ul>
+          <li>What is a Schema?</li>
+          <span style="color: #ffffff;">Something that defines the framework for how data will be stored, accessed, and
+            managed in a database.</span><br><br>
+          <li>Why do we use them?</li>
+          <span style="color: #ffffff;">To organize data, for data integrity, for better security, and for
+            consistency.</span><br><br>
+          <li>What do they look like?</li>
+          <img src="https://afteracademy.com/images/what-is-schema-diagram-b8915aa44db73ede.jpg">
+          <span style="color: #ffffff;">Source: <a
+              href="https://afteracademy.com/blog/what-is-a-schema/">https://afteracademy.com/blog/what-is-a-schema/</a>
+          </span><br><br>
+        </ul>
+      </li>
+
+      <li>What are the different types of Database Keys?<br><br>
+        <ul>
+          <li>What is a Primary Key?</li>
+          <span style="color: #ffffff;">A unique identifier for each record in a table that ensures each row is uniquely
+            identifiable and serves as a reference for relationships with other tables.</span><br><br>
+          <li>What is a Foreign Key?</li>
+          <span style="color: #ffffff;">A field in one table that refers to the primary key of another table and
+            establishes a link between the two tables and enforces referential integrity.</span><br><br>
+          <li>What is a Composite Key?</li>
+          <span style="color: #ffffff;">A combination of two or more columns that together form a unique identifier for
+            a record in a table.</span><br><br>
+          <li>How are they different? When do you use 1 over the others?</li>
+          <span style="color: #ffffff;"><br>
+            <ol>
+              <li>
+                Primary Key:
+
+                <span style="color: #ffffff;">
+                  The primary key uniquely identifies each record in a table and ensures data integrity. It cannot
+                  contain duplicate or null values. Every table should have a primary key.
+                </span>
+              </li><br>
+
+              <li>
+                Foreign Key:
+
+                <span style="color: #ffffff;">
+                  The foreign key is used to establish relationships between tables. It references the primary key of
+                  another table, creating a link between the two tables. It helps maintain referential integrity and
+                  ensures that the data between related tables remains consistent.
+                </span>
+              </li><br>
+
+              <li>
+                Composite Key:
+
+                <span style="color: #ffffff;">
+                  A composite key is used when a single column cannot uniquely identify a record, but a combination of
+                  columns can. It is used to create a unique identifier for a table by using multiple fields together.
+                </span>
+              </li><br>
+
+              Use a primary key when you need a unique identifier for each record in a table.
+              Use a foreign key when establishing relationships between tables to ensure data consistency and integrity.
+              Use a composite key when a single column cannot guarantee uniqueness, but a combination of columns can
+              create a unique identifier.
+            </ol>
+          </span><br><br>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>DBMS</h2>
+    <ol>
+      <li>What are Relationships in a relational database?<br><br>
+        <ul>
+          <li>What is a 1:1 relationship?</li>
+          <span style="color: #ffffff;">One record in a table is associated with only one corresponding record in
+            another table, and vice versa.</span><br><br>
+
+          <li>What is a Many:Many relationship?</li>
+          <span style="color: #ffffff;">Multiple records in one table are associated with multiple records in another
+            table.</span><br><br>
+
+          <li>How about a 1: Many or a Many:1?</li>
+          <span style="color: #ffffff;">A single record in one table is associated with multiple records in another
+            table, but each record in the second table is associated with only one record in the first table, or vice
+            versa.</span><br><br>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>Things I want to know more about:</h2>
+
+    Things I want to know more about:
+
+    <ol>
+      <li>How do you handle complex relationships and join operations in databases?</li>
+      <li>What are the differences between relational databases and other types of databases?</li>
+      <li>How can databases be optimized for performance?</li>
+    </ol>
+
+    <a href='../../reading-notes.html'><button
+        style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+
+  </div>
+</body>
+
+</html>
