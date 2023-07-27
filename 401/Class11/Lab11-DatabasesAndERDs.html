@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R3V6MQR53Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-R3V6MQR53Z');
+    </script>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    <title>Class Notes</title>
+    <style>
+        img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 60%;
+  height: auto;
+  background-color: #1c1a1c;
+  border: solid 5px #826982;
+  border-radius: 25px;
+  transition: max-width 0.6s ease, margin 0.6s ease;
+}
+
+img:hover {
+  max-width: 100%;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Databases and ERDs</h1>
+        <img src="ERD.png">
+        This is a visual representation of my database schema, depicting the entities, attributes, and relationships
+        between different tables.
+
+        <ol>
+            <li><span style="color: #f8f8ff;">Primary Keys (white):</span></li><br>
+            <ul>
+                <li><span style="color: #f8f8ff;">Amenity: ID (Primary Key)</span></li>
+                <li><span style="color: #f8f8ff;">Hotel: ID (Primary Key)</span></li>
+                <li><span style="color: #f8f8ff;">HotelRoom: ID (Primary Key)</span></li>
+                <li><span style="color: #f8f8ff;">Room: ID (Primary Key)</span></li>
+                <li><span style="color: #f8f8ff;">RoomAmenity: ID (Primary Key)</span></li>
+            </ul><br>
+
+            <li><span style="color: #f8f8ff;">Foreign Keys (gray):</span></li><br>
+            <ul>
+                <li><span style="color: #f8f8ff;">HotelRoom: RoomID (Foreign Key referencing Room.ID)</span></li>
+                <li><span style="color: #f8f8ff;">HotelRoom: HotelID (Foreign Key referencing Hotel.ID)</span></li>
+                <li><span style="color: #f8f8ff;">RoomAmenity: RoomID (Foreign Key referencing Room.ID)</span></li>
+                <li><span style="color: #f8f8ff;">RoomAmenity: AmenityID (Foreign Key referencing Amenity.ID)</span>
+                </li>
+            </ul><br>
+            <li><span style="color: #f8f8ff;">Composite Keys:</li><br>
+            <ul>
+                <li><span style="color: #f8f8ff;">There are none! :) </span></li>
+            </ul><br>
+
+            <li><span style="color: #f8f8ff;">Navigation Properties:</span></li><br>
+
+            <ol>
+                <li><span style="color: #f8f8ff;">HotelRoom</span></li><br>
+                <ul>
+                    <li><span style="color: #f8f8ff;">Room (Navigation property to Room entity, representing a Room
+                            associated with a HotelRoom)</span></li>
+                    <li><span style="color: #f8f8ff;">Hotel (Navigation property to Hotel entity, representing a Hotel
+                            associated with a HotelRoom)</span>
+                    </li>
+                </ul><br>
+
+                <li><span style="color: #f8f8ff;">RoomAmenity</span></li><br>
+                <ul>
+                    <li><span style="color: #f8f8ff;">Room (Navigation property to Room entity, representing a Room
+                            associated with a RoomAmenity)</span>
+                    </li>
+                    <li><span style="color: #f8f8ff;">Amenity (Navigation property to Amenity entity, representing an
+                            Amenity associated with a
+                            RoomAmenity)</span></li>
+                </ul><br>
+            </ol>
+
+            <li><span style="color: #f8f8ff;">Relationships between tables:</span></li><br>
+            <ul>
+                <li><span style="color: #f8f8ff;">Hotel and HotelRoom: One Hotel can have multiple HotelRooms, but each
+                        HotelRoom is associated with
+                        only one Hotel. (1:Many)</span></li><br>
+                <li><span style="color: #f8f8ff;">Room and HotelRoom: One Room can be associated with multiple
+                        HotelRooms, but each HotelRoom is
+                        linked to only one Room. (1:Many)</span></li><br>
+                <li><span style="color: #f8f8ff;">Room and RoomAmenity: One Room can have multiple RoomAmenities, and
+                        each RoomAmenity is linked to
+                        only one Room. (1:Many)</span></li><br>
+                <li><span style="color: #f8f8ff;">Amenity and RoomAmenity: One Amenity can be associated with multiple
+                        RoomAmenities, and each
+                        RoomAmenity is connected to only one Amenity. (1:Many)</span></li>
+            </ul><br>
+        </ol></span>
+
+        <a href='../../reading-notes.html'><button
+                style="border: solid 3px #826982; border-radius: 25px; background-color: #0a0a0a; display: flex; align-items: center;">Home</button></a>
+
+    </div>
+</body>
+
+</html>
